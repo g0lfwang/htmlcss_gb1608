@@ -418,15 +418,136 @@
     align-items: center;
     justify-content: center;
 }
+.subscribe-field {
+    width: 365px;
+    display: flex;
+}
 .email__address {
     background: #E1E1E1;
     padding: 7px 64px 7px 22px;
-    border-radius: 25px;
+    border-radius: 25px 0 0 25px;
     border-style: none;
+    width: 256px;
+    height: 36px;
 }
-.form__button {  
+.subscribe-field__button {  
     background: #F16D7F;
     padding: 7px 7px 7px 8px;
-    border-radius: 25px;
+    border-radius: 0 25px 25px 0;
     border: none;
+    width: 99px;
+    height: 50px;
+}
+.subscribe-field__button-text {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.register {
+    height: 148px;
+    background: #F8F3F4;
+}
+.register__title {
+    margin: 60px auto 60px 0;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #F16D7F;
+}
+.reg__form{
+    height: 675px;
+}
+.reg__input {
+    display: flex;
+}
+.input__form {
+    width: 360px;
+}
+.input__form-name {
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+}
+.input__form-name {
+    margin-bottom: 21px;
+    margin-top: 64px;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+}
+.input__text {
+    width: 360px;
+    height: 45px;
+    margin-bottom: 20px;
+    border: 1px solid #A4A4A4
+}
+.text__sex {
+    display: inline;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    margin-right: 20px;
+}
+.login__text {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+.input__join {
+    margin-top: 40px;
+    display: flex;
+    border: none;
+    justify-content: space-around;
+    align-items: center;
+    background: #F16D7F;
+    width: 167px;
+    height: 50px;
+}
+.join__text {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.reg__subtitle {
+    margin-top: 64px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+.reg__text {
+    margin-left: 128px;
+}
+.reg__note {
+    margin-top: 22px;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    max-width: 652px;
+}
+.perks__list {
+    list-style: none;   
+}
+.perks__item {
+    margin-top: 20px;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
 }
