@@ -1,0 +1,130 @@
+.header {
+    min-height: 75px;
+    background-color:#222222;
+}
+
+.header__container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__top {
+    margin-top: 18px;
+}
+
+.header__bottom {
+    margin-top: 18px;
+}
+
+.header__logo {
+    width: 44px;
+}
+
+.header__loupe {
+    width: 26px;
+    margin-left: 41px;
+}
+
+.header__burger {
+    width: 33px;
+    border: none;
+    background-color: transparent;
+    margin-right: 33px;
+}
+
+.header__person {
+    width: 30px;
+    margin-right: 33px;
+}
+
+.header__cart {
+    width: 30px;
+} 
+
+.header__menu {
+    position: absolute;
+    width: 232px;
+    height: 764px;
+    right: 0;
+    top: 75px;
+    background: white;
+    display: none;
+}
+
+.header__menu-x {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: 90%;
+    right: 9%;
+    top: 10px;
+    border: none;
+}
+
+.header__title {
+    margin-top: 38px;
+    margin-left: 34px;
+    margin-bottom: 24px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.menu-sub-item__title {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #F16D7F;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    margin-left: 33px;
+}
+
+.menu-sub-item__item {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    margin-bottom: 12px;
+    margin-left: 55px;
+}
+
+.header__bottom:hover .header__menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__menu-list {
+    list-style-type: none;
+}
+
+.menu-sub-item__list{
+    list-style-type: none;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header__container{
+      max-width: 96%;
+  }
+  
+  .header__top {
+      margin-left: 16px;
+  }
+
+  .header__bottom {
+      margin-right: 16px;
+  }
+
+  .header__bottom:hover .header__menu {
+      display: none;
+  }
+}
